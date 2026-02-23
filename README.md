@@ -1,9 +1,38 @@
-# Diabetes-Prediction
-day-1
-Use patient medical records to predict the likelihood of certain diseases, assisting in early
-diagnosis.
-day-2 
-done the resampling,and preprocessing converting object to int.
-daty-3 
-predict score of random foreset score of 81 and use 
+Diabetes Prediction Web App
+
+A Machine Learning–powered Diabetes Prediction System built using Python, Streamlit, and Scikit-learn.
+This application allows users to input medical parameters and get an instant prediction on whether they are diabetic or not.
+
+Project Overview
+
+Diabetes is one of the most common chronic diseases worldwide.
+This project uses a trained ML model to predict diabetes risk based on health-related inputs such as glucose level, BMI, age, etc.
+
+The app provides a simple web interface for real-time predictions.
+
+Machine Learning Workflow
+
+Data Collection (kaggle compltion Diabetes Dataset)
+
+Data Preprocessing
+
+Feature Selection
+
+Model Training (Random Forest classification)
+
+Model Serialization using pickle
+
+Deployment using Streamlit
+
+Real-time Prediction via Web App
+
+Diabetes-Prediction/
+│
+├── diabettes.sav          # Saved ML model
+├── main.ipynb             # Streamlit web 
+├── README.md              # Project 
+deploy
+├── deployment.py            # Dependencies
+data
+└── train.csv                # Training dataset 
 
