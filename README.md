@@ -26,19 +26,6 @@ Deployment using Streamlit
 
 Real-time Prediction via Web App
 
-Diabetes-Prediction/
-│
-├── diabettes.sav          # Saved trained ML model
-├── main.ipynb             # Model training notebook
-├── README.md              # Project documentation
-│
-├── deploy/
-│   └── deployment.py      # Streamlit web application
-│
-├── data/
-│   └── train.csv          # Training dataset
-
-
 Run the Streamlit App
 streamlit run deploy/deployment.py
 
