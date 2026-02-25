@@ -25,15 +25,6 @@ Deployment using Streamlit
 
 Real-time Prediction via Web App
 
-Project Structure
-
-Diabetes-Prediction/
-│
-├── trained_model.sav          # Saved ML model
-├── app.py                     # Streamlit web application
-├── requirements.txt           # Dependencies
-├── README.md                  # Project documentation
-└── dataset.csv                # Training dataset (optional)
  Features
 
 * User-friendly Streamlit interface
