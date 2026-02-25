@@ -5,20 +5,19 @@ This application allows users to input medical parameters and get an instant pre
 
 Project Overview
 
-Diabetes is one of the most common chronic diseases worldwide.
-This project uses a trained ML model to predict diabetes risk based on health-related inputs such as glucose level, BMI, age, etc.
+Diabetes is one of the most common chronic diseases worldwide.This project uses a trained ML model to predict diabetes risk based on health-related inputs such as glucose level, BMI, age, etc.
 
 The app provides a simple web interface for real-time predictions.
 
 Machine Learning Workflow
 
-Data Collection (PIMA Diabetes Dataset)
+Data Collection 
 
 Data Preprocessing
 
 Feature Selection
 
-Model Training (e.g., Logistic Regression / SVM)
+Model Training (Random Forest classification  / ANN)
 
 Model Serialization using pickle
 
