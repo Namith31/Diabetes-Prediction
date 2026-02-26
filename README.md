@@ -1,78 +1,68 @@
-Diabetes Prediction Web App
+# Diabetes Prediction
 
-A Machine Learning–powered Diabetes Prediction System built using Python, Streamlit, and Scikit-learn.
-This application allows users to input medical parameters and get an instant prediction on whether they are diabetic or not.
+A machine learning web application that predicts the likelihood of diabetes based on patient health metrics. Built with **scikit-learn** and deployed via **Streamlit**.
 
-Project Overview
+---
 
-Diabetes is one of the most common chronic diseases worldwide.This project uses a trained ML model to predict diabetes risk based on health-related inputs such as glucose level, BMI, age, etc.
+## Overview
 
-The app provides a simple web interface for real-time predictions.
+This project trains a classification model on clinical data to predict whether a patient is diabetic or not. The trained model is served through an interactive Streamlit web app where users can input health parameters and receive an instant prediction.
 
-Machine Learning Workflow
+---
 
-Data Collection 
+## Project Structure
 
-Data Preprocessing
-
-Feature Selection
-
-Model Training (Random Forest classification  / ANN)
-
-Model Serialization using pickle
-
-Deployment using Streamlit
-
-Real-time Prediction via Web App
-
- Features
-
-* User-friendly Streamlit interface
-* Real-time diabetes prediction
-* Lightweight and fast model
-* Easy to deploy locally or on cloud
-* Clean and beginner-friendly ML workflow
-
-
-Diabetes Prediction Web App
-
-A Machine Learning–powered Diabetes Prediction System built using Python, Streamlit, and Scikit-learn.
-This application allows users to input medical parameters and get an instant prediction on whether they are diabetic or not.
-
-Project Overview
-
-Diabetes is one of the most common chronic diseases worldwide.
-This project uses a trained ML model to predict diabetes risk based on health-related.
-
-
-The app provides a simple web interface for real-time predictions.
-
-Machine Learning Workflow
-
-Data Collection (kaggle compltion Diabetes Dataset)
-
-Data Preprocessing
-
-Feature Selection
-
-Model Training (Random Forest classification)
-
-Model Serialization using pickle
-
-Deployment using Streamlit
-
-Real-time Prediction via Web App
-
-
+```
 Diabetes-Prediction/
 │
-├── diabettes.sav          # Serialized (trained) ML model
-├── main.ipynb             # Model training, EDA & evaluation notebook
-├── README.md              # Project documentation
+├── diabettes.sav
+├── main.ipynb
+├── README.md
 │
 ├── deploy/
-│   └── deployment.py      # Streamlit web application
+│   └── deployment.py
 │
 └── data/
-    └── train.csv          # Dataset used for model training
+    └── train.csv
+```
 
+| File | Description |
+|---|---|
+| `diabettes.sav` | Serialized (trained) ML model |
+| `main.ipynb` | Model training, EDA & evaluation notebook |
+| `README.md` | Project documentation |
+| `deploy/deployment.py` | Streamlit web application |
+| `data/train.csv` | Dataset used for model training |
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.8+
+- pip
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Namith31/Diabetes-Prediction.git
+cd Diabetes-Prediction
+
+
+```
+
+### Run the App
+
+```bash
+streamlit run deploy/deployment.py
+```
+
+Open your browser at `http://localhost:8501`
+
+## 🧠 Model
+
+- **Algorithm:** *( Random Forest)*
+- **Serialization:** `pickle` (`.sav` format)
+- **Training details:** See `main.ipynb`
