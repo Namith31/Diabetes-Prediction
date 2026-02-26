@@ -66,13 +66,13 @@ Real-time Prediction via Web App
 
 Diabetes-Prediction/
 │
-├── diabettes.sav          # Trained ML model
-├── main.ipynb             # Model training & experimentation
-├── README.md              # Documentation
+├── diabettes.sav          # Serialized (trained) ML model
+├── main.ipynb             # Model training, EDA & evaluation notebook
+├── README.md              # Project documentation
 │
 ├── deploy/
-│   └── deployment.py      # Streamlit application
+│   └── deployment.py      # Streamlit web application
 │
-├── data/
-│   └── train.csv          # Dataset used for training
+└── data/
+    └── train.csv          # Dataset used for model training
 
