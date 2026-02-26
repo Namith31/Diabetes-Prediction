@@ -66,3 +66,6 @@ Open your browser at `http://localhost:8501`
 - **Algorithm:** *( Random Forest)*
 - **Serialization:** `pickle` (`.sav` format)
 - **Training details:** See `main.ipynb`
+
+
+ **Youtube Link:** See `https://youtu.be/s_F9FzIucFA`
