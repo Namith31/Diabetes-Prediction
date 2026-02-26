@@ -61,7 +61,7 @@ streamlit run deploy/deployment.py
 
 Open your browser at `http://localhost:8501`
 
-## 🧠 Model
+## Model
 
 - **Algorithm:** *( Random Forest)*
 - **Serialization:** `pickle` (`.sav` format)
